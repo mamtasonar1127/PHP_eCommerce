@@ -10,3 +10,8 @@
         die();
     }
 
+    function get_safe_value($str, $con)
+    {
+        if(($str!=''))
+       return mysqli_real_escape_string($con,$str);
+    }

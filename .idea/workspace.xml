@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e19de121-f686-403c-8a2d-7050b9a49d13" name="Default Changelist" comment="" />
+    <list default="true" id="e19de121-f686-403c-8a2d-7050b9a49d13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funtions.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/funtions.inc.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +20,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aJigBvVnikMCe8UT0qTpNDwxuT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -38,7 +51,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586460208800</updated>
-      <workItem from="1586460218852" duration="1253000" />
+      <workItem from="1586460218852" duration="3623000" />
+      <workItem from="1586615778612" duration="1767000" />
+      <workItem from="1586786176535" duration="2665000" />
     </task>
     <servers />
   </component>
@@ -46,13 +61,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="832" y="266" key="NewPhpFileDialog" timestamp="1586462558837">
+    <state x="832" y="266" key="NewPhpFileDialog" timestamp="1586789443057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="832" y="266" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1586462558837" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586460217315">
+    <state x="832" y="266" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1586789443057" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586786270292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586460217315" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586786270292" />
   </component>
 </project>
