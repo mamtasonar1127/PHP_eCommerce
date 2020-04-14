@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e19de121-f686-403c-8a2d-7050b9a49d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/top.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connection.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funtions.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/funtions.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/top.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +53,38 @@
       <updated>1586460208800</updated>
       <workItem from="1586460218852" duration="3623000" />
       <workItem from="1586615778612" duration="1767000" />
-      <workItem from="1586786176535" duration="2665000" />
+      <workItem from="1586786176535" duration="6451000" />
     </task>
+    <task id="LOCAL-00001" summary="admin panel creation">
+      <created>1586789523058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586789523058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="admin panel creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin panel creation" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="832" y="266" key="NewPhpFileDialog" timestamp="1586789443057">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1586789520322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="832" y="266" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1586789443057" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586789520322" />
+    <state x="832" y="266" key="NewPhpFileDialog" timestamp="1586871049047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="832" y="266" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1586871049047" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1586789538129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586789538129" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586786270292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

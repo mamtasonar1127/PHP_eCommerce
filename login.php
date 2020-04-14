@@ -5,7 +5,7 @@
         $username=$_POST['username'];
         $password=$_POST['password'];
         $sql="select * from admin_users where username='$username' and password='$password'";
-        echo $sql;
+        //echo $sql;
         $res= mysqli_query($con,$sql);
         $count=mysqli_num_rows($res);
 
