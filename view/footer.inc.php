@@ -2,7 +2,7 @@
 <footer class="site-footer">
       <div class="text-center">
         <p>
-          &copy; Copyrights <strong>Mamta</strong>. All Rights Reserved
+          &copy; Copyrights <strong><?php echo date('Y')?> Mamta</strong>. All Rights Reserved
 </p>
       <!--  <div class="credits">
           Created by <a href="https://templatemag.com/">Mamta Sonar</a>

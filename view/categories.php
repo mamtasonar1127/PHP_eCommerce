@@ -1,5 +1,8 @@
 <?php
     require('top.inc.php');
+    $sql="SELECT * FROM categories order by categories asc";
+    $res = mysqli_query($con,$sql);
+
 ?>
 <!--main content start-->
 <section id="main-content">
@@ -13,19 +16,27 @@
                         <table class="table table-bordered table-striped table-condensed cf">
                             <thead class="cf">
                             <tr>
-                                <th>Code</th>
-                                <th>Company</th>
-                                <th class="numeric">Price</th>
-                                <th class="numeric">Change</th>
-                                <th class="numeric">Change %</th>
-                                <th class="numeric">Open</th>
-                                <th class="numeric">High</th>
-                                <th class="numeric">Low</th>
-                                <th class="numeric">Volume</th>
+                                <th>#</th>
+                                <th>ID</th>
+                                <th>Categories</th>
+                                <th>Actions</th>
                             </tr>
                             </thead>
 
-
+                            <tbody>
+                            <?php
+                                while($row=mysqli_fetch_assoc($res)){
+                            ?>
+                            <tr>
+                                <th></th>
+                                <th><?php echo $row['categories_id']?></th>
+                                <th><?php echo $row['categories']?></th>
+                                <th></th>
+                            </tr>
+                             <?php
+                                }
+                             ?>
+                            </tbody>
                         </table>
                     </section>
                 </div>

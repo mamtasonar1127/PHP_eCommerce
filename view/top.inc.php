@@ -1,6 +1,5 @@
 <?php
-require('connection.inc.php');
-$msg='';
+require('../model/connection.inc.php');
 if(isset($_SESSION['ADMIN_LOGIN']) && ($_SESSION['ADMIN_USERNAME']!='')){
 
     }

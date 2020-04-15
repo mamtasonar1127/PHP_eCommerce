@@ -1,29 +1,10 @@
 <?php
-    require('connection.inc.php');
-    $msg='';
-    if(isset($_POST['submit'])){
-        $username=$_POST['username'];
-        $password=$_POST['password'];
-        $sql="select * from admin_users where username='$username' and password='$password'";
-        //echo $sql;
-        $res= mysqli_query($con,$sql);
-        $count=mysqli_num_rows($res);
+    require('../model/connection.inc.php');
 
-        if($count>0){
-            $_SESSION['ADMIN_LOGIN']='yes';
-            $_SESSION['ADMIN_USERNAME']=$username;
-            header('location:categories.php');
-            die();
-        }
-        else{
-            $msg="Please enter correct login details";
-
-        }
-    }
 ?>
 
 <!DOCTYPE html>
-<html lang="en">x
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -67,7 +48,7 @@
                 </label>
                 <button class="btn btn-theme btn-block" type="submit" name="submit"><i class="fa fa-lock"></i> SIGN IN</button>
                 <hr>
-                <div><?php echo $msg?></div>
+
                 <div class="registration">
                     Don't have an account yet?<br/>
                     <a class="" href="#">
